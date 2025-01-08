@@ -11,6 +11,17 @@ print(bool_variable)
 
 # Concatenacion de variables
 print(my_variable, int_variable, bool_variable)
+print('Todo lo que te dice es', bool_variable)
 
 print(str(int_variable))
 print(type(str(int_variable)))
+
+# Variables en una linea
+name,surname, alias, age = 'Darwin', 'Guerra', 'Lawi', 24 # Se puede hacer pero es mala praxis
+print('Me llamo:', name, surname, ', Tengo:', age, 'de Edad y me dicen', alias)
+
+# Ejemplo de inputs
+your_name = input('Cual es tu nombre? ')
+your_age = input('Cual es tu edad? ')
+
+print('Tu nombre es:', your_name, ', y tienes', your_age, 'años')
