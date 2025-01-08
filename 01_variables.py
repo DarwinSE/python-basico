@@ -21,7 +21,22 @@ name,surname, alias, age = 'Darwin', 'Guerra', 'Lawi', 24 # Se puede hacer pero 
 print('Me llamo:', name, surname, ', Tengo:', age, 'de Edad y me dicen', alias)
 
 # Ejemplo de inputs
+"""
 your_name = input('Cual es tu nombre? ')
 your_age = input('Cual es tu edad? ')
 
 print('Tu nombre es:', your_name, ', y tienes', your_age, 'años')
+"""
+
+# Cambiamos tipos
+name = 54
+age = 'Hola'
+
+print(name)
+print(age)
+
+# Le asignamos un tipo a una variable?
+address: str = 'Mi direccion'
+address = 25
+
+print(type(address))
